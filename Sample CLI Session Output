@@ -1,0 +1,18 @@
+Enter your Binance API Key: x0AqCUBMT1FqXP6pFec753sUPR7X3NMApBuSEzSrjQVb9NPjqj96VIx4VYYaCofe 
+Enter your Binance API Secret: pUeXL3SKzIkeFEnVVOFzFG97ugJVoPw4ILNVXu8DpUCGxl3vdkCwwfBSAkMlLOPA
+Enter trading pair (e.g., BTCUSDT): BTCUSDT
+Enter side (BUY or SELL): BUY
+Enter order type (MARKET or LIMIT): MARKET
+Enter quantity: 0.001
+
+
+IF THE ORDER IS SUCCESSFUL:
+
+2025-07-08 12:10:34,147 - INFO - Order placed: {'symbol': 'BTCUSDT', 'orderId': 1234567890, 'status': 'FILLED', ...}
+Order executed successfully.
+
+
+IF THERE'S AN ERROR
+
+2025-07-08 12:10:34,300 - ERROR - Error placing order: BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+Order failed. Check logs for details.
